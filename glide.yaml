@@ -1,0 +1,7 @@
+package: github.com/hiepvv/auth-no-redis
+import:
+- package: github.com/gin-gonic/gin
+  version: ^1.2.0
+- package: gopkg.in/mgo.v2
+- package: github.com/go-redis/redis
+  version: ^6.13.2
